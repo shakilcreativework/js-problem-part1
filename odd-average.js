@@ -5,15 +5,15 @@
 
 function oddAverage(numbers){
     // console.log(numbers);
-    let oddList = [];
+    let sum = 0;
     for(const number of numbers){
         // console.log(number);
         if(number % 2 !== 0){
-            oddList.push(number);
+            sum += number;
         }
     }
     // console.log(oddList);
-    return oddList;
+    return sum;
 }
 
 const digits = [35, 64, 73, 85, 95, 34, 64, 898, 4546];
