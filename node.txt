@@ -1,0 +1,98 @@
+1. Ques: www meaning...?
+
+Ans: World Wide Web.
+
+
+2. Who create Javascript...?
+
+Ans: Brendan Eich.
+Javascript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997.
+
+
+3. interpreted/JIT meaning...?
+
+Ans: Just in Time compiler.
+
+
+4. Javascript engine name...?
+
+Ans: V8 use browser run time.
+
+
+5. If one number difine 20 and other number is '20' then math result?
+
+console.log(20 + '20'); // concat number with string not math operation result 2020
+console.log(20 - '20'); // substraction not problem if any value use string
+console.log(20 * '20'); // multiply not problem if any value use string
+console.log(20 / '20'); // division not problem if any value use string
+
+
+6. What is Javascript variable rules...?
+
+cannot be a reserved keyword.
+should be a meaningful name.
+cannot start with number.
+cannot contain a space or heyphen.
+
+
+7. How can you use ternary operator?
+
+ternary structure: condition ? ... : ...;
+
+
+8. What is ! meaning?
+
+! is a logical not. It is check it is false or not. It is convert false to true or true to false.
+
+
+9. what result If use double logical not then?
+
+!false => !true
+!!false => !true => !false
+!!true => !false => !true
+
+
+10. What is array?
+
+array enables storing a collection of multiple items under a signle variable name.
+
+
+11. What is loop and How can work it?
+
+Can i tell easily loop is a continue proccess but it is can handle by condition below.
+
+let num = 0; // loop variable
+while(num < 5){ // loop condition
+    console.log(num); // loop statement
+    num++; // loop variable change or increment
+}
+
+
+12. String type?
+
+string is immutable. you can not change string same like this capital[0] = 'Abul'
+
+
+13. What is work of trim();?
+
+trim do removed white space 1st or last comperison time.
+ex:
+const water = ' water';
+const liquid = 'water ';
+const drinks = ' water ';
+
+if(drinks.trim() === liquid.trim()){
+    console.log('pani er opor name life');
+}else{
+    console.log('sumudre pani ase khaite pari na');
+}
+
+
+14. How can access property value and how ways?
+
+const pen = {name: 'matador', price: 5, color: 'black'};
+const keys = Object.keys(pen);
+const values = Object.values(pen);
+
+
+15. 
